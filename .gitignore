@@ -1,1 +1,7 @@
 *.zip
+.ipynb_checkpoints/
+__pycache__/
+catboost_info/
+
+# HW3 — brain tumor MRI images (download separately)
+HW3/part-2-dataset/
