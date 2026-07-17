@@ -8,6 +8,7 @@ Homework submissions for the DS course, organized by assignment in separate fold
 |------------|-------|--------|
 | **HW2** | House price regression & classification | [`HW2/`](HW2/) |
 | **HW3** | Deep learning (MLP, CNN, RNN, Transformers) | [`HW3/`](HW3/) |
+| **HW4** | Pipelines, imbalance, generative models & XAI | [`HW4/`](HW4/) |
 
 ---
 
@@ -27,6 +28,14 @@ PyTorch implementations across four parts: **MLP** on house prices (regression +
 
 ---
 
+### [HW4 — Generative Models, Pipelines & XAI](HW4/README.md)
+
+Modern workflows: sklearn/pandas **pipelines** and imputation, **imbalanced learning** (undersample / oversample / SMOTE / class weights), generative models (**VAE**, **GAN**, **Diffusion**), and **XAI** (Grad-CAM, SHAP, LIME, ELI5) on the Assignment 3 CNN.
+
+**Entry point:** [`HW4/assignement4.ipynb`](HW4/assignement4.ipynb)
+
+---
+
 ## Repository layout
 
 ```
@@ -39,8 +48,14 @@ PyTorch implementations across four parts: **MLP** on house prices (regression +
 │   ├── README.md
 │   ├── main.ipynb
 │   ├── part-1-dataset/
-│   ├── part-2-dataset/          # large image set — see HW3 README
+│   ├── part-2-dataset/          # large — gitignored
 │   ├── part-3&4-dataset/
 │   └── part5_report.pdf
+├── HW4/
+│   ├── README.md
+│   ├── assignement4.ipynb
+│   └── Ass4-datasets/           # heavy subfolders gitignored
 └── README.md
 ```
+
+Add new assignments as `HWn/` with their own README and notebook(s).

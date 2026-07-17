@@ -5,3 +5,13 @@ catboost_info/
 
 # HW3 — brain tumor MRI images (download separately)
 HW3/part-2-dataset/
+
+# HW4 — large datasets / checkpoints (download or regenerate)
+HW4/Ass4-datasets/brain-tumor-mri/
+HW4/Ass4-datasets/torch-data/
+HW4/Ass4-datasets/artifacts/
+# HW4 — prior-assignment copies / build scripts used locally only
+HW4/Ass1/
+HW4/Ass2/
+HW4/Ass3/
+HW4/Ass4-build/
